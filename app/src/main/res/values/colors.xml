@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg" >#F7F6F2</color>
+
+    <color name="line_background">#EBEBEB</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="text_FF9211_color">#FF9211</color>
+    <color name="text_4C4C4C_color">#4C4C4C</color>
+    <color name="text_3291E9_color">#3291E9</color>
+    <color name="text_999999_color">#999999</color>
+    <color name="text_F7F6F2_color">#F7F6F2</color>
+    <color name="text_b3d465_color">#b3d465</color>
+    <color name="text_FACE98_color">#FACE98</color>
+</resources>

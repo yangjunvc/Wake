@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar"/>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+
+    <style name="textStyle_4C4C4C_11">
+        <item name="android:textColor">@color/text_4C4C4C_color</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="textStyle_4C4C4C_13">
+        <item name="android:textColor">@color/text_4C4C4C_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="textStyle_4C4C4C_14">
+        <item name="android:textColor">@color/text_4C4C4C_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textStyle_4C4C4C_15">
+        <item name="android:textColor">@color/text_4C4C4C_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="textStyle_4C4C4C_16">
+        <item name="android:textColor">@color/text_4C4C4C_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textStyle_FF9211_11">
+        <item name="android:textColor">@color/text_FF9211_color</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="textStyle_FF9211_14">
+        <item name="android:textColor">@color/text_FF9211_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textStyle_FF9211_15">
+        <item name="android:textColor">@color/text_FF9211_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="textStyle_FF9211_16">
+        <item name="android:textColor">@color/text_FF9211_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textStyle_FF9211_24">
+        <item name="android:textColor">@color/text_FF9211_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="textStyle_FF9211_25">
+        <item name="android:textColor">@color/text_FF9211_color</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="textStyle_999999_16">
+        <item name="android:textColor">@color/text_999999_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textStyle_999999_15">
+        <item name="android:textColor">@color/text_999999_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="textStyle_999999_14">
+        <item name="android:textColor">@color/text_999999_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textStyle_999999_13">
+        <item name="android:textColor">@color/text_999999_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="textStyle_999999_12">
+        <item name="android:textColor">@color/text_999999_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textStyle_white_14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textStyle_white_15">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="textStyle_white_16">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textStyle_white_18">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="textStyle_white_36">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <!-- 模仿dialog的遮罩层属性 -->
+    <style name="mask_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Define_ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/define_progress</item>
+    </style>
+
+
+
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

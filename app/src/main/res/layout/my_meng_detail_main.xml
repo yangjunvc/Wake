@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/title_main"/>
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="135dip"
+        android:layout_margin="@dimen/title_padding"
+        style="@style/textStyle_4C4C4C_14"
+        android:padding="@dimen/title_padding"
+        android:maxLength="200"
+        android:gravity="top|left"
+        android:hint="@string/my_meng_detail_hint"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/white_face98_round_background"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title_main"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/text_b3d465_color">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/title_padding"
+            android:layout_marginRight="@dimen/title_padding"
+            android:background="@drawable/white_round_background">
+            <com.android.wako.util.RecycleImageView
+                android:id="@+id/qr_code"
+                android:layout_width="200dip"
+                android:layout_height="200dip"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="72dip" />
+            <TextView
+                android:id="@+id/qrcode_invite"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="72dip"
+                android:text="@string/qrcode_invite"
+                android:gravity="center"
+                style="@style/textStyle_4C4C4C_16"
+                android:textStyle="bold"
+                android:background="@drawable/gray_bottom_round_background"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
